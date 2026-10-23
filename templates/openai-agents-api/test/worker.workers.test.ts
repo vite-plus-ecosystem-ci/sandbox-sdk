@@ -1,6 +1,6 @@
 import { SELF } from 'cloudflare:test';
 import { env } from 'cloudflare:workers';
-import { beforeEach, describe, expect, it, vi } from 'vite-plus/test';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import worker from '../src/index';
 
 const CLIENT_SECRET = 'executor-client-secret';
