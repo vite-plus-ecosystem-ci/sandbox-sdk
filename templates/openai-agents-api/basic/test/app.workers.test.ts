@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { createHandler } from '../src/index.js';
 import type { SessionManager } from '../src/types.js';
 
