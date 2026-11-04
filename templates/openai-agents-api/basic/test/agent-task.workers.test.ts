@@ -1,5 +1,5 @@
 import type { AgentAPISDK } from '@openai/agents-api-preview';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { runAgentTask } from '../src/agent-task.js';
 
 async function* values<T>(items: T[]): AsyncGenerator<T> {

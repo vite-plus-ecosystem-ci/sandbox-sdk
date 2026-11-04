@@ -7,3 +7,4 @@ examples/*/worker-configuration.d.ts
 examples/coding-agents/*/worker-configuration.d.ts
 *.tsbuildinfo
 examples/**/wrangler.local.json
+.vitest/

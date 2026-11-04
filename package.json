@@ -36,11 +36,12 @@
     "@types/node": "24.19.2",
     "knip": "6.42.1",
     "typescript": "6.0.3",
-    "vite-plus": "1.4.0",
+    "vite-plus": "0.0.0-commit.b310e71f11353a85781d2d0e0e0bfe149e0f55a2",
     "wrangler": "4.152.0",
     "zod": "4.6.7"
   },
   "overrides": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-commit.b310e71f11353a85781d2d0e0e0bfe149e0f55a2",
     "wrangler": "$wrangler"
   },
   "engines": {
