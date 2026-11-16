@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it, vi } from 'vite-plus/test';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { ExecutorEnvironment } from '../src/executor-environment';
 import type { OpenAISession } from '../src/openai-session';
 import {
